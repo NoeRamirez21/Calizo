@@ -1,0 +1,44 @@
+.footer {
+  background: rgba(239, 230, 212, 1);
+  color: #fff;
+  padding: 14px 0;
+}
+
+.containerfooter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.footer h5 {
+  font-size: 14px;
+  font-family: poppins;
+  color: gray;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-family: poppins;
+  color: gray;
+  font-size: 12px;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 5px;
+}
+
+.footer ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  text-decoration: underline;
+}
