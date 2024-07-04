@@ -8,7 +8,6 @@
  {/* Secciones*/}
 
 .Secciones {
-  padding: 14px; 
   display: flex; 
   justify-content: center;
 }
@@ -54,6 +53,94 @@
   text-decoration: underline;
 }
 
+ {/*tarjetas*/}
+
+.Tarjetas{
+  display: flex;
+  padding-top: 24px;
+  justify-content: center;
+}
+
+.containertarjetas{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-right: 12px;
+  padding-left: 12px;
+  position: relative;
+}
+
+.Tarjetas h1{
+    font-family: poppins;
+    font-size: 16px;
+    color: rgba(235, 140, 84, 1);
+}
+
+.Tarjetas .Row {
+  --bs-gutter-x: 0;
+}
+
+.Tarjetas [class*="col-"]{
+    float: left;
+    text-align: justify;
+    transition: transform 0.3s ease; 
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.col-2:hover, .col-3:hover, .col-4:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.Tarjetas .row {
+  --bs-gutter-x: -0.5rem;
+} 
+
+
+.Tarjetas a:hover{
+  color: rgba(235,140,84,1);
+  text-decoration: underline;
+}
+
+
+.Tarjetas .card {
+  max-width: 300px;
+  margin: auto;
+}
+
+.Tarjetas .card-img-top{
+  max-width: 312px;
+}
+
+
+.Tarjetas .card-body{
+  padding: 4px;
+
+}
+
+.Tarjetas .card-body p{
+  margin-bottom: 4px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.Tarjetas .card-title {
+  padding-top: 6px;
+}
+
+.Tarjetas .card h5 {
+  height: none;
+
+}
+
+
+
+
+
 
   {/*Galeriarecientes*/}
 
@@ -62,7 +149,6 @@
   display: flex;
   justify-content: center;
 }
-
 
 
 .containergaleria{
@@ -84,7 +170,7 @@
     border-radius: 22px;
 }
 
-[class*="col-"]{
+.galeriarecientes [class*="col-"]{
     float: left;
     padding-left: 6px;
     padding-right: 6px;
@@ -235,7 +321,7 @@
 }
 
 
-.card {
+.Productores .card {
   width: 18rem; 
   margin: 10px; 
   transition: transform 0.3s ease; 
@@ -244,5 +330,90 @@
 .card:hover {
   transform: scale(1.05); 
   cursor: pointer; 
+}
+
+
+{/*Comunidad*/}
+
+.Tarjetas{
+  display: flex;
+  padding-top: 24px;
+  justify-content: center;
+}
+
+.containercomunidad{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-right: 12px;
+  padding-left: 12px;
+  position: relative;
+}
+
+.Comunidad h1{
+    font-family: poppins;
+    font-size: 16px;
+    color: rgba(235, 140, 84, 1);
+}
+
+.Comunidad .Row {
+  --bs-gutter-x: 0;
+}
+
+.Comunidad [class*="col-"]{
+    float: left;
+    text-align: justify;
+    transition: transform 0.3s ease; 
+    margin: auto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
+}
+
+.col-2:hover, .col-3:hover, .col-4:hover {
+  transform: scale(1.03);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+.Comunidad .row {
+  --bs-gutter-x: -0.5rem;
+} 
+
+
+.Comunidad a:hover{
+  color: rgba(235,140,84,1);
+  text-decoration: underline;
+}
+
+
+.Comunidad .card {
+  max-width: 300px;
+  margin: auto;
+}
+
+.Comunidad .card-img-top{
+  max-width: 312px;
+}
+
+
+.Comunidad .card-body{
+  padding: 4px;
+
+}
+
+.Comunidad .card-body p{
+  margin-bottom: 4px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.Comunidad .card-title {
+  padding-top: 6px;
+}
+
+.Comunidad .card h5 {
+  height: none;
+
 }
 
